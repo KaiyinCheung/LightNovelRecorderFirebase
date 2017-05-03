@@ -5,7 +5,6 @@ package com.example.user.lightnovelrecorderfirebase;
  */
 
 public class ListItem {
-    private int id;
     private String name;
     private String progress;
     private String other;
@@ -17,14 +16,6 @@ public class ListItem {
 
     public void setDate(String date) {
         this.date = date;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getOther() {
